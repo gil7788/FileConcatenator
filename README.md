@@ -1,10 +1,10 @@
-File Concatenator Script
+# File Concatenator Script
 
-Purpose:
+## Purpose:
 
 The File Concatenator Script is a utility script for processing and displaying files in a directory, allowing exclusions based on filename.
 
-Usage:
+## Usage:
 
 - **Linux (tree.sh):**
   ```shell
@@ -16,7 +16,7 @@ Usage:
   tree.bat /path/to/directory -e file1 file2
   ```
 
-Flags:
+## Flags:
 
 - `path`: Directory path to process.
 - `-e, --exclude [EXCLUDE_FILES ...]`: (Optional) List of files to exclude.

@@ -1,27 +1,22 @@
-# PyScriptTemplate
+File Concatenator Script
 
-PyScriptTemplate is a template repository for Python scripts that are designed to be executed from the terminal. It provides a basic structure and examples for creating command-line Python applications.
+Purpose:
 
-## Features
+The File Concatenator Script is a utility script for processing and displaying files in a directory, allowing exclusions based on filename.
 
-* Argument parsing with `argparse`
-* Modular script structure
-* Example functions and tests
-* `.gitignore` for Python projects
-* Basic `requirements.txt` file
+Usage:
 
-## Getting Started
+- **Linux (tree.sh):**
+  ```shell
+  bash tree.sh /path/to/directory -e file1 file2
+  ```
 
-### Prerequisites
+- **Windows (tree.bat):**
+  ```shell
+  tree.bat /path/to/directory -e file1 file2
+  ```
 
-Before you begin, ensure you have met the following requirements:
-* You have a working installation of Python 3.x.
-* You have basic knowledge of the Python programming language.
+Flags:
 
-### Installation
-
-To use the PyScriptTemplate, follow these steps:
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/PyScriptTemplate.git
+- `path`: Directory path to process.
+- `-e, --exclude [EXCLUDE_FILES ...]`: (Optional) List of files to exclude.
